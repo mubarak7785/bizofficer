@@ -1,5 +1,18 @@
 .main-con{
     width: 70%;
     height: 65px;
-    border: 1px solid black;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px  20px;
+}
+
+.main-con>select{
+    width: 150px;
+    height: 40px;
+}
+.main-con>input{
+    width: 150px;
+    height:35px;
 }
