@@ -6,8 +6,6 @@
     gap: 20px;
 }
 
-
-
 .main-con1{
     width: 70%;
     height: 65px;
@@ -19,13 +17,13 @@
 }
 
 .main-con1>select{
-    width: 170px;
+    width: 150px;
     height: 35px;
     border-radius: 5px;
     border-color: rgb(205, 200, 200);
 }
 .main-con1>input{
-    width: 230px;
+    width: 200px;
     height:30px;
     border-radius: 5px;
     border-color: rgb(187, 183, 183);
@@ -57,7 +55,7 @@ button:hover{
 }
 
 .box2{
-    width: 7%;
+    width: 8%;
     height: 65px;
     display: flex;
     align-items: center;
