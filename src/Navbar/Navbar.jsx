@@ -1,5 +1,7 @@
 import "./Navbar.css"
-import { MdMenu,MdOutlineLogin } from 'react-icons/Md';
+import { MdOutlineLogin } from 'react-icons/Md';
+import { MdMenu } from 'react-icons/Md';
+
 
 
 export const Navbar=()=>{
