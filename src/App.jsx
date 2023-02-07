@@ -3,6 +3,7 @@ import reactLogo from './assets/react.svg'
 import './App.css'
 import { Navbar } from './Navbar/Navbar'
 import { Filter } from './Filter/Filter'
+import { Model } from './Model/Model'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -11,6 +12,7 @@ function App() {
     <div className="App">
      <Navbar/>
      <Filter/>
+     <Model/>
     </div>
   )
 }

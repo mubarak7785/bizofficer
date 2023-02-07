@@ -1,18 +1,76 @@
 .main-con{
+    width: 99%;
+    margin: auto;
+    height: 65px;
+    display: flex;
+    gap: 20px;
+}
+
+
+
+.main-con1{
     width: 70%;
     height: 65px;
-    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+   
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 0px  20px;
+    padding: 0px  0px;
 }
 
-.main-con>select{
-    width: 150px;
-    height: 40px;
+.main-con1>select{
+    width: 170px;
+    height: 35px;
+    border-radius: 5px;
+    border-color: rgb(205, 200, 200);
 }
-.main-con>input{
-    width: 150px;
-    height:35px;
+.main-con1>input{
+    width: 230px;
+    height:30px;
+    border-radius: 5px;
+    border-color: rgb(187, 183, 183);
+
+}
+.main-con1>button{
+    width: 70px;
+    height: 35px;
+    border-radius: 5px;
+
+    border: none;
+    background-color: white;
+    box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+}
+
+.main-con1>select:hover{
+    cursor: pointer;
+    border-color: black;
+}
+.main-con1>input:hover{
+    cursor: pointer;
+    border-color: black;
+
+}
+
+button:hover{
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    cursor: pointer;
+}
+
+.box2{
+    width: 7%;
+    height: 65px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    align-content: center;
+}
+
+.box2>p{
+    color: blue;
+    font-size: 30px;
+    margin: 0%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
