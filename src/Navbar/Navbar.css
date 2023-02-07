@@ -17,9 +17,9 @@
 }
 
 .menu-btn{
-    font-weight: bold;
+    /* font-weight: bold; */
     color: white;
-    font-size: 30px;
+    font-size: 25px;
     margin: 0%;
     height: 100%;
     display: flex;
@@ -40,13 +40,13 @@
 }
 
 .login{
-    font-weight: bold;
+    /* font-weight: bold; */
     color: white;
-    font-size: 30px;
+    font-size: 25px;
     margin: 0%;
     height: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-right: 25px;
+    margin-right: 35px;
 }
