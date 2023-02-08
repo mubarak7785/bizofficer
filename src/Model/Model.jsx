@@ -29,10 +29,11 @@ export const Model=()=>{
                 <div><p>Remarks</p></div>
                 <div><p>comment</p></div>  
             </div>
-         {Data.map((e)=>{
+            <div className="dabba">
+            {Data.map((e)=>{
             return(
-                <div className="top-main">
-                <div> <p className="check"> <input type="checkbox" /></p></div>
+                <div className="top-main1">
+                <div> <p className="check1"> <input type="checkbox" /></p></div>
                 <div><p>{e.id}</p></div>
                 <div><p>{e.Case_number}</p></div>
                 <div><p>{e.Title}</p></div>
@@ -59,6 +60,8 @@ export const Model=()=>{
             </div>
             )
          })}
+            </div>
+        
         </div>
     </div>)
 }
