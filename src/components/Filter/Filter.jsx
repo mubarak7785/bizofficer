@@ -1,4 +1,5 @@
 import "./Filter.css"
+import { Link } from "react-router-dom"
 
 export const Filter=()=>{
     return(<div>
@@ -24,7 +25,7 @@ export const Filter=()=>{
         <div className="box2">
             <p><i class="fa-solid fa-border-all"></i></p>
             <p><i class="fa-solid fa-calendar-days"></i></p>
-            <p><i class="fa-sharp fa-solid fa-circle-plus"></i></p>
+            <p> <Link to="/form"><i class="fa-sharp fa-solid fa-circle-plus"></i></Link></p>
         </div>
         </div>
         
